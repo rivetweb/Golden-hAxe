@@ -1,0 +1,7 @@
+-swf ../bin/_dynamic_template.swf
+-swf-lib resource.swf
+-swf-header 100:100:20:000000
+-main Main
+-lib hxjson2
+
+#-D debug

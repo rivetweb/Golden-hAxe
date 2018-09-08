@@ -1,0 +1,7 @@
+-swf {filename}
+-swf-lib resource.swf
+-swf-header {width}:{height}:20:000000
+-main Main
+-lib hxJson2
+
+#-D debug

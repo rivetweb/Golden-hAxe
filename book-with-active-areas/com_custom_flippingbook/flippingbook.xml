@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>FlippingBook</name>
+	<creationDate>March 2009</creationDate>
+	<author>Mediaparts Interactive</author>
+	<authorEmail>support@page-flip-tools.com</authorEmail>
+	<authorUrl>www.page-flip-tools.com</authorUrl>
+	<copyright>Copyright Mediaparts Interactive</copyright>
+	<license>Commercial License</license>
+	<version>1.5.7</version>
+	<description>FlippingBook Gallery Component. Copyright Mediaparts Interactive. All rights reserved. Released under Commercial License. www.page-flip-tools.com</description>
+	<installfile>install.eventlist.php</installfile>
+	<uninstallfile>uninstall.eventlist.php</uninstallfile>
+	<install>
+		<sql folder="admin">
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql folder="admin">
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="frontend">
+		<filename>css/black.css</filename>
+		<filename>css/clear.css</filename>
+		<filename>css/white.css</filename>
+		<filename>images/book_list_bg.png</filename>
+		<filename>images/book_list_bg_black.png</filename>
+		<filename>images/book_list_bg_black_r.png</filename>
+		<filename>images/book_list_bg_black_l.png</filename>
+		<filename>images/close.png</filename>
+		<filename>images/print.png</filename>
+		<filename>js/ajax-zoom.css</filename>
+		<filename>js/ajax-zoom.js</filename>
+		<filename>js/expressInstall.swf</filename>
+		<filename>js/flippingbook.js</filename>
+		<filename>js/jquery-1.2.6.pack.js</filename>
+		<filename>js/swfobject.js</filename>
+		<filename>models/book.php</filename>
+		<filename>models/categories.php</filename>
+		<filename>models/category.php</filename>
+		<filename>navigationbars/navigation.swf</filename>
+		<filename>navigationbars/navigation_round.swf</filename>
+		<filename>samples/abstract_background_blue.jpg</filename>
+		<filename>samples/abstract_background_green.jpg</filename>
+		<filename>samples/abstract_background_orange.jpg</filename>
+		<filename>samples/abstract_background_red.jpg</filename>
+		<filename>samples/abstract_background_yellow.jpg</filename>
+		<filename>samples/book_preview.png</filename>
+		<filename>samples/category_preview.png</filename>
+		<filename>samples/my-book_01.swf</filename>
+		<filename>samples/my-book_02.jpg</filename>
+		<filename>samples/my-book_03.jpg</filename>
+		<filename>samples/my-book_04.jpg</filename>
+		<filename>samples/my-book_05.jpg</filename>
+		<filename>samples/my-book_06.jpg</filename>
+		<filename>samples/my-book_07.jpg</filename>
+		<filename>samples/my-book_08.jpg</filename>
+		<filename>samples/my-book_zoom_02.jpg</filename>
+		<filename>samples/my-book_zoom_03.jpg</filename>
+		<filename>samples/my-book_zoom_04.jpg</filename>
+		<filename>samples/my-book_zoom_05.jpg</filename>
+		<filename>samples/my-book_zoom_06.jpg</filename>
+		<filename>samples/my-book_zoom_07.jpg</filename>
+		<filename>samples/my-book_zoom_08.jpg</filename>
+		<filename>sounds/glossy_magazine.mp3</filename>
+		<filename>sounds/newspaper.mp3</filename>
+		<filename>sounds/photo_album.mp3</filename>
+		<filename>views/book/index.html</filename>
+		<filename>views/book/metadata.xml</filename>
+		<filename>views/book/view.html.php</filename>
+		<filename>views/book/tmpl/default.php</filename>
+		<filename>views/book/tmpl/default.xml</filename>
+		<filename>views/book/tmpl/index.html</filename>
+		<filename>views/categories/index.html</filename>
+		<filename>views/categories/metadata.xml</filename>
+		<filename>views/categories/view.html.php</filename>
+		<filename>views/categories/tmpl/default.php</filename>
+		<filename>views/categories/tmpl/default.xml</filename>
+		<filename>views/categories/tmpl/index.html</filename>
+		<filename>views/categories/tmpl/list.php</filename>
+		<filename>views/categories/tmpl/list.xml</filename>
+		<filename>views/categories/tmpl/thumbnails.php</filename>
+		<filename>views/categories/tmpl/thumbnails.xml</filename>
+		<filename>views/category/index.html</filename>
+		<filename>views/category/metadata.xml</filename>
+		<filename>views/category/view.html.php</filename>
+		<filename>views/category/tmpl/default.php</filename>
+		<filename>views/category/tmpl/default.xml</filename>
+		<filename>views/category/tmpl/index.html</filename>
+		<filename>views/category/tmpl/list.php</filename>
+		<filename>views/category/tmpl/list.xml</filename>
+		<filename>views/category/tmpl/thumbnails.php</filename>
+		<filename>views/category/tmpl/thumbnails.xml</filename>
+		<filename>controller.php</filename>
+		<filename>flippingbook.php</filename>
+		<filename>flippingbook.swf</filename>
+		<filename>index.html</filename>
+		<filename>metadata.xml</filename>
+		<filename>router.php</filename>
+
+		<!-- for customization -->
+		<filename>css/imgareaselect-default.css</filename>
+		<filename>css/border-v.gif</filename>
+		<filename>css/border-h.gif</filename>
+		<filename>css/border-anim-v.gif</filename>
+		<filename>css/border-anim-h.gif</filename>
+
+		<filename>js/dynamic_page.js</filename>
+		<filename>js/jquery.min.js</filename>
+		<filename>js/jquery.imgareaselect.min.js</filename>
+		<filename>js/jquery.noconflict.js</filename>
+	</files>
+
+	<administration>
+		<menu img="components/com_flippingbook/images/icon_fb.png">FlippingBook</menu>
+		<submenu>
+			<menu link="option=com_flippingbook&amp;task=configuration" img="components/com_flippingbook/images/icon_config.png">Configuration</menu>
+			<menu link="option=com_flippingbook&amp;task=category_manager" img="components/com_flippingbook/images/icon_cm.png">Manage Categories</menu>
+			<menu link="option=com_flippingbook&amp;task=book_manager" img="components/com_flippingbook/images/icon_bm.png">Manage Books</menu>
+			<menu link="option=com_flippingbook&amp;task=page_manager" img="components/com_flippingbook/images/icon_pm.png">Manage Pages</menu>
+			<menu link="option=com_flippingbook&amp;task=batch_add_pages" img="components/com_flippingbook/images/icon_batch.png">Batch Add Pages</menu>
+			<menu link="option=com_flippingbook&amp;task=file_manager" img="components/com_flippingbook/images/icon_fm.png">Manage Files</menu>
+		</submenu>
+		<files folder="administrator">
+			<filename>elements/book.php</filename>
+			<filename>elements/category.php</filename>
+			<filename>elements/index.html</filename>
+			<filename>help/help.html</filename>
+			<filename>images/batch_help.gif</filename>
+			<filename>images/book_lists.png</filename>
+			<filename>images/icon_batch.png</filename>
+			<filename>images/icon_bm.png</filename>
+			<filename>images/icon_config.png</filename>
+			<filename>images/icon_fb.png</filename>
+			<filename>images/icon_cm.png</filename>
+			<filename>images/icon_fm.png</filename>
+			<filename>images/icon_pm.png</filename>
+			<filename>images/m_batch.png</filename>
+			<filename>images/m_books.png</filename>
+			<filename>images/m_categories.png</filename>
+			<filename>images/m_config.png</filename>
+			<filename>images/m_filemanager.png</filename>
+			<filename>images/m_pages.png</filename>
+			<filename>tables/flippingbook.php</filename>
+			<filename>tables/flippingcategory.php</filename>
+			<filename>tables/flippingpage.php</filename>
+			<filename>tables/index.html</filename>
+			<filename>views/batch_add_pages.php</filename>
+			<filename>views/book_manager.php</filename>
+			<filename>views/category_manager.php</filename>
+			<filename>views/configuration.php</filename>
+			<filename>views/file_manager.php</filename>
+			<filename>views/index.html</filename>
+			<filename>views/main.php</filename>
+			<filename>views/page_manager.php</filename>
+			<filename>admin.flippingbook.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.eventlist.php</filename>
+			<filename>install.mysql.sql</filename>
+			<filename>toolbar.flippingbook.php</filename>
+			<filename>toolbar.flippingbook.html.php</filename>
+			<filename>uninstall.eventlist.php</filename>
+			<filename>uninstall.mysql.sql</filename>
+			<filename>updatescript.php</filename>
+
+			<!-- for customization -->
+			<filename>images/_dynamic_template.swf</filename>
+			<filename>images/_zoom_dynamic_template.swf</filename>
+			<filename>images/create_swf.xml</filename>
+
+			<filename>images/flash_src_new/bin/avon/my-book_001.jpg</filename>
+			<filename>images/flash_src_new/bin/avon/my-book_zoom_001.jpg</filename>
+			<filename>images/flash_src_new/bin/_dynamic_template.swf</filename>
+			<filename>images/flash_src_new/bin/_zoom_dynamic_template.swf</filename>
+			<filename>images/flash_src_new/obj/_dynamic_templateLibrary.xml</filename>
+			<filename>images/flash_src_new/obj/_dynamic_templateResources.swf</filename>
+			<filename>images/flash_src_new/src/build.bat</filename>
+			<filename>images/flash_src_new/src/compile.hxml</filename>
+			<filename>images/flash_src_new/src/compile2.hxml</filename>
+			<filename>images/flash_src_new/src/DrawUtils.hx</filename>
+			<filename>images/flash_src_new/src/DynamicPage.hx</filename>
+			<filename>images/flash_src_new/src/Main.hx</filename>
+			<filename>images/flash_src_new/src/ProductBox.hx</filename>
+			<filename>images/flash_src_new/src/ProductMsgBox.hx</filename>
+			<filename>images/flash_src_new/src/resource.fla</filename>
+			<filename>images/flash_src_new/src/resource.swf</filename>
+			<filename>images/flash_src_new/src/_template_compile.hxml</filename>
+			<filename>images/flash_src_new/_dynamic_template.hxproj</filename>
+
+			<filename>pearlib/Image/Transform.php</filename>
+			<filename>pearlib/Image/Transform/Driver/Imagick3.php</filename>
+			<filename>pearlib/Image/Transform/Driver/NetPBM.php</filename>
+			<filename>pearlib/Image/Transform/Driver/Imlib.php</filename>
+			<filename>pearlib/Image/Transform/Driver/GD.php</filename>
+			<filename>pearlib/Image/Transform/Driver/IM.php</filename>
+			<filename>pearlib/Image/Transform/Driver/Imagick/ImageTypes.php</filename>
+			<filename>pearlib/Image/Transform/Driver/Cairowrapper.php</filename>
+			<filename>pearlib/Image/Transform/Driver/Imagick2.php</filename>
+			<filename>pearlib/Image/Transform/Driver/ColorsDefs.php</filename>
+			<filename>pearlib/Image/Transform/Driver/GD1.php</filename>
+			<filename>pearlib/PEAR.php</filename>
+			<filename>pearlib/scripts/peclcmd.php</filename>
+			<filename>pearlib/scripts/pearcmd.php</filename>
+			<filename>pearlib/OS/Guess.php</filename>
+			<filename>pearlib/PEAR/PackageFile.php</filename>
+			<filename>pearlib/PEAR/ErrorStack.php</filename>
+			<filename>pearlib/PEAR/DependencyDB.php</filename>
+			<filename>pearlib/PEAR/Command.php</filename>
+			<filename>pearlib/PEAR/Config.php</filename>
+			<filename>pearlib/PEAR/Frontend.php</filename>
+			<filename>pearlib/PEAR/Packager.php</filename>
+			<filename>pearlib/PEAR/REST.php</filename>
+			<filename>pearlib/PEAR/RunTest.php</filename>
+			<filename>pearlib/PEAR/ChannelFile/Parser.php</filename>
+			<filename>pearlib/PEAR/Installer.php</filename>
+			<filename>pearlib/PEAR/Autoloader.php</filename>
+			<filename>pearlib/PEAR/Frontend/CLI.php</filename>
+			<filename>pearlib/PEAR/Downloader/Package.php</filename>
+			<filename>pearlib/PEAR/Dependency2.php</filename>
+			<filename>pearlib/PEAR/Command/Config.php</filename>
+			<filename>pearlib/PEAR/Command/Pickle.php</filename>
+			<filename>pearlib/PEAR/Command/Mirror.php</filename>
+			<filename>pearlib/PEAR/Command/Build.php</filename>
+			<filename>pearlib/PEAR/Command/Auth.php</filename>
+			<filename>pearlib/PEAR/Command/Test.php</filename>
+			<filename>pearlib/PEAR/Command/Install.php</filename>
+			<filename>pearlib/PEAR/Command/Package.php</filename>
+			<filename>pearlib/PEAR/Command/Common.php</filename>
+			<filename>pearlib/PEAR/Command/Registry.php</filename>
+			<filename>pearlib/PEAR/Command/Remote.php</filename>
+			<filename>pearlib/PEAR/Command/Channels.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Cfg.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Script.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Test.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Common.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Php.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Src.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Doc.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Www.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Data.php</filename>
+			<filename>pearlib/PEAR/Installer/Role/Ext.php</filename>
+			<filename>pearlib/PEAR/Installer/Role.php</filename>
+			<filename>pearlib/PEAR/FixPHP5PEARWarnings.php</filename>
+			<filename>pearlib/PEAR/Validate.php</filename>
+			<filename>pearlib/PEAR/Downloader.php</filename>
+			<filename>pearlib/PEAR/ChannelFile.php</filename>
+			<filename>pearlib/PEAR/REST/10.php</filename>
+			<filename>pearlib/PEAR/REST/11.php</filename>
+			<filename>pearlib/PEAR/REST/13.php</filename>
+			<filename>pearlib/PEAR/Common.php</filename>
+			<filename>pearlib/PEAR/Registry.php</filename>
+			<filename>pearlib/PEAR/Task/Unixeol/rw.php</filename>
+			<filename>pearlib/PEAR/Task/Postinstallscript/rw.php</filename>
+			<filename>pearlib/PEAR/Task/Postinstallscript.php</filename>
+			<filename>pearlib/PEAR/Task/Replace.php</filename>
+			<filename>pearlib/PEAR/Task/Replace/rw.php</filename>
+			<filename>pearlib/PEAR/Task/Windowseol/rw.php</filename>
+			<filename>pearlib/PEAR/Task/Unixeol.php</filename>
+			<filename>pearlib/PEAR/Task/Common.php</filename>
+			<filename>pearlib/PEAR/Task/Windowseol.php</filename>
+			<filename>pearlib/PEAR/Validator/PECL.php</filename>
+			<filename>pearlib/PEAR/XMLParser.php</filename>
+			<filename>pearlib/PEAR/Exception.php</filename>
+			<filename>pearlib/PEAR/Builder.php</filename>
+			<filename>pearlib/PEAR/PackageFile/v1.php</filename>
+			<filename>pearlib/PEAR/PackageFile/v2/rw.php</filename>
+			<filename>pearlib/PEAR/PackageFile/v2/Validator.php</filename>
+			<filename>pearlib/PEAR/PackageFile/Generator/v1.php</filename>
+			<filename>pearlib/PEAR/PackageFile/Generator/v2.php</filename>
+			<filename>pearlib/PEAR/PackageFile/v2.php</filename>
+			<filename>pearlib/PEAR/PackageFile/Parser/v1.php</filename>
+			<filename>pearlib/PEAR/PackageFile/Parser/v2.php</filename>
+			<filename>pearlib/System.php</filename>
+			<filename>pearlib/PEAR5.php</filename>
+		</files>
+
+		<languages folder="administrator">
+			<language tag="en-GB">language/en-GB/en-GB.com_flippingbook.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_flippingbook.menu.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_flippingbook.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_flippingbook.menu.ini</language>
+		</languages>
+	</administration>
+</install>

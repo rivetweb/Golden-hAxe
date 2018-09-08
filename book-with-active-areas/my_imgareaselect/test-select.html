@@ -1,0 +1,102 @@
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="css/imgareaselect-default.css">
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.imgareaselect.min.js"></script>
+
+</head>
+
+<body>
+
+<div style="float:left; margin-right:15px;">
+<img id="ladybug" src="test-select_files/ladybug.jpg" alt="A ladybug enjoying the fine afternoon." title="A ladybug enjoying the fine afternoon.">
+</div>
+
+<div>
+<select id="items_coord" size="15">
+<option disabled>Items coordinates</option>
+</select>
+</div>
+
+<p>
+<form action="examples-callback.html#submitting-selection-coordinates-demo" method="post">
+ <input type="hidden" id="x1" name="x1" value="82" >
+ <input type="hidden" id="y1" name="y1" value="50" >
+ <input type="hidden" id="x2" name="x2" value="219">
+ <input type="hidden" id="y2" name="y2" value="121"> 
+ <input id="bAdd" name="bAdd" value="Append" type="button">
+ <input id="bDel" name="bDel" value="Delete" type="button"> 
+</form>
+
+<script type="text/javascript">
+
+(function($){
+
+$(function(){
+
+	//init image selection box
+	$('#ladybug').imgAreaSelect({
+		onSelectEnd: function(img, selection) {
+			//init region coords
+			/*
+			$('input[name=x1]').val(selection.x1);
+			$('input[name=y1]').val(selection.y1);
+			$('input[name=x2]').val(selection.x2);
+			$('input[name=y2]').val(selection.y2);
+			*/
+
+			//change for current select list
+			if($('#items_coord')[0].selectedIndex > 0){
+				var s = [selection.x1, selection.y1, selection.x2, selection.y2].join(",");
+				var o=$('#items_coord')[0].options[$('#items_coord')[0].selectedIndex];
+				o.value = s;
+				o.text = 'item: {'+s+'}';				
+			}
+		}
+	});
+	
+	//display current region from select list
+	$('#items_coord').change(function() {
+		var coo = this.value.split(",");
+		ias.setSelection(coo[0], coo[1], coo[2], coo[3], true);
+		ias.setOptions({ show: true });
+		ias.update();
+	});
+	$('#items_coord').blur(function(){
+		this.selectedIndex=-1;
+	});
+
+	//instance of image selection box
+	var ias = $('#ladybug').imgAreaSelect({ instance: true });
+
+	//append new region to select list
+  $('#bAdd').click(function(){
+	  //save for select list
+  	var selection = ias.getSelection();
+		var s = [selection.x1, selection.y1, selection.x2, selection.y2].join(",");
+		$('#items_coord').append('<option value="'+s+'">item: {'+s+'}</option>');
+	});
+	
+	//delete region from select list
+  $('#bDel').click(function(){
+		if($('#items_coord')[0].selectedIndex > 0){
+			$('#items_coord')[0].remove($('#items_coord')[0].selectedIndex);
+			ias.setSelection(0, 0, 0, 0, true);
+			ias.setOptions({ show: true });
+			ias.update();
+		}
+	});
+  
+});
+
+})(jQuery);
+
+</script>
+
+
+</body>
+
+</html>
+
+

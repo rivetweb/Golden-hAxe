@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	
+<movie width="{width}" height="{height}" framerate="20" version="8">
+  <background color="#000000"/>
+  <frame>
+    <library>
+      <clip id="picture" import="{filename}"/>
+      <clip id="clip" import="{template}"/>
+    </library>
+		
+		<place id="picture" name="mc_bg1" x="0" y="0" depth="1"/>
+		<place id="clip" name="mc_bg2" x="0" y="0" depth="2"/>
+  </frame>	
+</movie>

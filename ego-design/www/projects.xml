@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<group>
+	<name>Жилые</name>
+	<title>Жилые интерьеры</title>
+	<description>Уникальный внутренний мир ваших квартир, коттеджей, дачных домов и гостиниц</description>
+	
+	<project>
+		<name>Гостиничные номера</name>
+		<description>Каждый гостиничный номер должен быть уникальным по стилю и, главное, удобным для отдыха гостей. Наш дизайн - это всегда качественно и стильно, мы учитываем все индивидуальные пожелания клиента и помогаем ему найти идеального решение</description>
+		<thumb file="pics/thumbs2/1_gost_rooms.jpg"/>
+		<images>
+			<image file="pics/Ego_gold17.jpg">Гостиничный номер</image>
+			<image file="pics/Ego_gold5.jpg">Гостиничный номер</image>
+			<image file="pics/Ego_gold4.jpg">Гостиничный номер</image>
+			<image file="pics/Ego_gold16.jpg">Гостиничный номер</image>	
+			<image file="pics/Ego_gold3.jpg">Гостиничный номер</image>
+			<image file="pics/25host2.jpg">Гостиная</image>
+			<image file="pics/25host1.jpg">Гостиная</image>
+			<image file="pics/25spal3.jpg">Спальня</image>
+			<image file="pics/25spal.jpg">Спальня</image>			
+		</images>
+	</project>
+	
+	<project>
+		<name>Интерьеры квартир</name>
+		<description>Для современного человека все большее значение приобретает атмосфера, в которой он живет, работает и отдыхает. Дизайн каждой квартиры отражает индивидуальность наших клиентов</description>
+		<thumb file="pics/thumbs2/3_room_interrior.jpg"/>
+		<images>
+			<image file="pics/04_Host_0903.jpg">Гостиная. Квартира на Ленинградском проспекте</image>
+			<image file="pics/05_Host_0903.jpg">Гостиная. Квартира на Ленинградском проспекте</image>
+			<image file="pics/12_Host_0903.jpg">Гостиная. Квартира на Ленинградском проспекте</image>			
+		</images>
+	</project>
+	
+	<project>
+		<name>Интерьеры загородных домов</name>
+		<description>Интерьер загородного дома, его атмосфера и комфорт оказывают ежедневное влияние на своего хозяина, его настроение и мироощущение. В красивом, уютном комфортном загородном доме, коттедже меньше уходит времени на домашние дела, хорошо отдыхать после трудового дня</description>
+		<thumb file="pics/thumbs2/4_zagogr_dom_int.jpg"/>
+		<images>
+		<image file="pics/15-_Холл-_Загородный_дом.jpg">Холл в загородном доме</image>
+		<image file="pics/06_Zd_1203.jpg">Малая гостиная. Дом на Новорижском шоссе</image>
+		<image file="pics/04_Zd_1203.jpg">Кабинет. Дом на Новорижском шоссе</image>
+		<image file="pics/15_Zd_1203.jpg">Кухня. Дом на Новорижском шоссе</image>
+		<image file="pics/16_Zd_1203.jpg">Столовая. Дом на Новорижском шоссе</image>		
+		</images>
+	</project>
+</group>
+
+<group>
+	<name>Общественные</name>
+	<title>Проекты общественных интерьеров</title>
+	<description>При разработке общественных объектов компания EGO-Design уделяет внимение прежде всего удобству, безопасности и элегантному стилю, чтобы вы могли работать и отдыхать с максимальной эффективностью.</description>
+
+	<project>
+		<name>"Спа в Поднебесной", отель "Пекин"</name>
+		<description>Спа салон в японском стиле. 
+		
+В составе проекта: финская сауна, хамам, японская баня, массажные кабинеты и комната отдыха.</description>
+<thumb file="pics/thumbs2/9.Хамам.jpg"/>
+		<images>
+			<image file="pics/8.Massage.jpg">Массажная комната</image>
+			<image file="pics/10.Sauna.jpg">Сауна</image>
+			<image file="pics/15.Sauna.jpg">Сауна</image>			
+		</images>
+	</project>
+	
+		<project>
+		<name>"Эгоист Голд", ночной клуб</name>
+		<description>Ночной клуб "Эгоист Голд"
+		
+В составе проекта: интерьеры общего зала, коридора, лестниц.		</description>
+<thumb file="pics/thumbs2/Ego_gold13.jpg"/>
+		<images>
+			<image file="pics/Ego_gold6.jpg">Холл</image>
+			<image file="pics/Ego_gold15.jpg">Холл</image>
+			<image file="pics/Ego_gold7.jpg">Лестница</image>			
+			<image file="pics/Ego_gold8.jpg">Коридор</image>			
+			<image file="pics/Ego_gold2.jpg">Лестница</image>
+			<image file="pics/Ego_gold19.jpg">Коридор</image>				
+			<image file="pics/Ego_gold1.jpg">Зал</image>
+			<image file="pics/Ego_gold12.jpg">Зал</image>
+			<image file="pics/Ego_gold9.jpg">Зал</image>
+			<image file="pics/Ego_gold11.jpg">Зал</image>
+			<image file="pics/Ego_gold18.jpg">Зал</image>
+			<image file="pics/Ego_gold14.jpg">Общий зал</image>
+			<image file="pics/Ego_gold20.jpg">Общий зал</image>
+			<image file="pics/Ego_gold21.jpg">Общий зал</image>
+			<image file="pics/Ego_gold22.jpg">Общий зал</image>
+			<image file="pics/Ego_gold13.jpg">Общий зал</image>
+			<image file="pics/Ego_gold10.jpg">Зал</image>		
+		</images>
+	</project>
+		
+		<project>
+		<name>Проект ночного клуба в отеле "Пекин"</name>
+		<description>Ночной клуб "Пекин"</description>
+		<thumb file="pics/thumbs2/Pekin_klub.jpg"/>
+		<images>
+			<image file="pics/Pekin17.jpg"></image>
+			<image file="pics/Pekin14.jpg"></image>
+			<image file="pics/Pekin15.jpg"></image>
+			<image file="pics/Pekin07.jpg"></image>
+			<image file="pics/Pekin10.jpg"></image>
+			<image file="pics/Pekin13.jpg"></image>
+		</images>
+	</project>		
+	
+		<project>
+		<name>Ресторан на "Ломоносовском"</name>
+		<description>Проект ресторана в индонезийском стиле
+		
+В составе проекта: общий зал, бар.		</description>
+		<thumb file="pics/thumbs2/zal-fin1.jpg"/>
+		<images>
+			<image file="pics/zal-fin1.jpg">Общий зал</image>
+			<image file="pics/bar.jpg">Бар</image>
+		</images>
+	</project>			
+	
+	<project>
+		<name>Wellness-центр. г. Сочи</name>
+		<description>В 2009 году компания EGO-Design выполнила проектирование Wellness-центра по заказу Комитета по строительству олимпийских объектов в Сочи-2014. 
+		
+В составе проекта: летняя терраса, ресторан, тренажерный зал, ресепшн, фойе, залы для термических процедур (термы).</description>
+<thumb file="pics/thumbs2/7_wellness_sochi.jpg"/>
+		<images>
+			<image file="pics/zal-fin1.jpg">Общий зал</image>
+			<image file="pics/bar.jpg">Бар</image>
+		</images>
+	</project>
+	
+	<project>
+		<name>Офис компании "11 Invest" г. Москва</name>
+		<description>Центральный офис инвестиционной компании "11 Invest". В составе проекта: интерьер кабинетов руководителя и служащих компании, комната для переговоров, холл, ресепшн, коридоры.</description>
+		<thumb file="pics/thumbs2/5_11_invest.jpg"/>
+		<images>
+			<image file="pics/zal-fin1.jpg">Общий зал</image>
+			<image file="pics/bar.jpg">Бар</image>
+		</images>
+	</project>
+	
+	<project>
+		<name>Торговый центр, г. Москва</name>
+		<description>Комплексный проект торгового центра, включающий интерьер помещений и архитектурное проектирование.
+		
+В составе проекта: внутренний двор, кафе-атриум, ресторан, сквер внутри торгового центра.</description>
+<thumb file="pics/thumbs2/8_tc_mosva.jpg"/>
+		<images>
+			<image file="pics/zal-fin1.jpg">Общий зал</image>
+			<image file="pics/bar.jpg">Бар</image>
+		</images>
+	</project>
+</group>
+
+<group>
+	<name>Разное</name>
+	<title>Проектирование зданий и офисных помещений</title>
+	<description>Проектирование зданий различного назначения с учетом всех потребностей и пожеланий заказчика</description>
+
+	<project>
+		<name>Дома и коттеджи</name>
+		<description>Архитектурное проектирование вашего дома.
+		
+Дизайн предполагает эргономичную внутреннюю и внешнюю планировку пространства и включает в себя дизайн интерьера, фасада, ландшафтный дизайн. Специалисты компании EGO-Design помогут воплотить Ваши мечты и создать идеальный вид Вашего дома.</description>
+	<thumb file="pics/thumbs2/9_cottage.jpg"/>
+		<images>			
+			<image file="pics/01_Home.jpg">Дом в Подмосковье</image>
+			<image file="pics/02_Home.jpg">Дом в Подмосковье. Фасады</image>
+			<image file="pics/03_garage.jpg">Гараж и голубятня</image>
+			<image file="pics/04_garage.jpg">Ландшафт и голубятня</image>
+		</images>
+	</project>
+	
+	<project>
+		<name>Общественные здания</name>
+		<description>Магазины - архитектурный дизайн и дизайн интерьера.
+
+Разработка дизайн проекта магазина штучная во всех отношениях задача. Это всегда индивидуальное решение, индивидуальный подход, нестандартная торговая мебель.
+		</description>
+		<thumb file="pics/thumbs2/10_vitrina.jpg"/>
+		<images>
+			<image file="pics/zal-fin1.jpg">Общий зал</image>
+			<image file="pics/bar.jpg">Бар</image>
+		</images>
+	</project>
+</group>
